@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+      "forceConsistentCasingInFileNames": true,
+      "target": "ES2016",
+      "useDefineForClassFields": true,
+      "module": "ES2020",
+      "moduleResolution": "node",
+      "allowUnreachableCode":false,
+      "noImplicitReturns":true,
+      "strict": true,
+      "jsx": "react",
+      "jsxFactory": "ui.h",
+      "declaration": false,
+      "resolveJsonModule": true,
+      "isolatedModules": true,
+      "allowJs": true,
+      "esModuleInterop": true,
+      "lib": ["ESNext"],
+      "skipLibCheck": true,
+      "paths": {
+        "@/*": ["./src/*"]
+      }
+    } ,
+    "include":["src/**/*.ts","src/**/*.d.ts","src/**/*.d.tsx", "node_modules/autox-v6-api/**/*.d.ts", "typings/**/*"]
+  }
+  
